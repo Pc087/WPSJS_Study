@@ -11,5 +11,5 @@ function Add(...nums)
 
 - 运行结果
 
-![image-20220329181455391](img\01-ParamArray.jpg)
+![ParamArray](img\01-ParamArray.jpg)
 
