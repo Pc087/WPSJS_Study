@@ -23,8 +23,6 @@ function test()
 }
 ```
 
-<br>
-
 # 3、导出图片
 ```javascript
 function export_image(){
