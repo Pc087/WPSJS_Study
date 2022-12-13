@@ -43,3 +43,30 @@ function test(){
 	}
 }
 ```
+
+# 5、Array.Sort() 汉字的排序
+
+```javascript
+function test(){
+	var arr = Range("a1").CurrentRegion.Value2.slice(1).sort((a,b)=>a[3].localeCompare(b[3]))
+}
+```
+
+# 6、右键菜单
+
+```javascript
+function test(){
+	Application.CommandBars("Cell").Reset()
+	with(Application.CommandBars("Cell").Controls.Add({before:1}))
+	{
+		FaceId = 2
+		Caption = "测试"
+		OnAction = "按钮事件"
+	}
+}
+function 按钮事件()
+{
+	MsgBox("haha")
+}
+```
+
