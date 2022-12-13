@@ -8,8 +8,7 @@ function 汇总(){
 		if(cur>1) arr.shift();
 		return prev.concat(arr)
 	},[])
-	Sheets.Add()
-	ActiveSheet.Name = "汇总"
+	Sheets.Add().Name = "汇总"
 	Range("a1").Resize(total.length,total[0].length).Value2 = total
 }
 ```
