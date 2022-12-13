@@ -40,8 +40,9 @@ function Dir文件遍历(){
 * 如上表示所有时间
 * 它代表自从上次修改和保存指定的文件的时间量(在文件夹可以看到最后的修改时间)
 * 常用枚举值：
-* | msoLastModifiedAnyTime   | 所有时间             | 7    |
+* | 枚举值                   | 说明                 |      |
 	| ------------------------ | -------------------- | ---- |
+	| msoLastModifiedAnyTime   | 所有时间             | 7    |
 	| msoLastModifiedLastMonth | 最后修改于最近一个月 | 5    |
 	| msoLastModifiedLastWeek  | 最后修改于最近一周   | 3    |
 	| msoLastModifiedThisMonth | 最后修改于本月       | 6    |
