@@ -57,7 +57,7 @@ function Dir文件遍历(){
 	
 	  
 	
-	* | 枚举值                             | 说明                                                         |
+	| 枚举值                             | 说明                                                         |
     | ---------------------------------- | ------------------------------------------------------------ |
     | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
     | msoFileTypeOfficeFiles             | 文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html |
