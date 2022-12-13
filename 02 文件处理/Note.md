@@ -55,9 +55,11 @@ function Dir文件遍历(){
 	
 	* 下面是几个常用的
 	
+	  
+	
 	* | 枚举值                             | 说明                                                         |
-	  | ---------------------------------- | ------------------------------------------------------------ |
-	  | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
+    | ---------------------------------- | ------------------------------------------------------------ |
+    | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
     | msoFileTypeOfficeFiles             | 文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html |
     | msoFileTypeWebPages                | HTML 文件 (*.htm 或 *.html)                                  |
     | msoFileTypePowerPointPresentations | PowerPoint 演示文稿文件 (.ppt)，PowerPoint 模板文件 (.pot)，或 PowerPoint 幻灯片放映文件 (*.pps)<br/>FS.FileType.Add() 方法可往内部传入参数（上述枚举值来添加文件类型) |
