@@ -55,20 +55,23 @@ function Dir文件遍历(){
 	
 	* 下面是几个常用的
 	
-	* | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
+	* | 枚举值                             | 说明                                                         |
 	  | ---------------------------------- | ------------------------------------------------------------ |
-	  | msoFileTypeOfficeFiles             | 文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html |
+	  | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
+    | msoFileTypeOfficeFiles             | 文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html |
     | msoFileTypeWebPages                | HTML 文件 (*.htm 或 *.html)                                  |
     | msoFileTypePowerPointPresentations | PowerPoint 演示文稿文件 (.ppt)，PowerPoint 模板文件 (.pot)，或 PowerPoint 幻灯片放映文件 (*.pps)<br/>FS.FileType.Add() 方法可往内部传入参数（上述枚举值来添加文件类型) |
-  
+    
     
   
 - 6、排序 FS.Execute(msoSortBy, msoSortOrder, Boolean)
-  ​	- msoSortBy:按照什么来排序
-  ​	- 枚举值：
 
-  | msoSortByFileName      | 按文件名     |
+  ​	* msoSortBy:按照什么来排序
+  ​	* 枚举值：
+
+  | 枚举值      | 说明     |
   | ---------------------- | ------------ |
+  | msoSortByFileName    | 按文件名    |
   | msoSortByFileType      | 按文件类型   |
   | msoSortByLastModified  | 最后修改时间 |
   | msoSortBySize          | 文件大小     |
