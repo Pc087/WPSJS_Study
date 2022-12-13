@@ -37,14 +37,17 @@ function Dir文件遍历(){
 	* 如上表示所有时间
 	* 它代表自从上次修改和保存指定的文件的时间量(在文件夹可以看到最后的修改时间)
 	* 常用枚举值：
-		* msoLastModifiedAnyTime		-所有时间 				7
-		* msoLastModifiedLastMonth	-最后修改于最近一个月		5
-		* msoLastModifiedLastWeek	-最后修改于最近一周		3
-		* msoLastModifiedThisMonth	-最后修改于本月			6
-		* msoLastModifiedThisWeek	-最后修改于本周			4
-		* msoLastModifiedToday		-最后修改于今天			2
-		* msoLastModifiedYesterday	-最后修改于昨天			1
-
+	* | msoLastModifiedAnyTime   | 所有时间             | 7    |
+		| ------------------------ | -------------------- | ---- |
+		| msoLastModifiedLastMonth | 最后修改于最近一个月 | 5    |
+		| msoLastModifiedLastWeek  | 最后修改于最近一周   | 3    |
+		| msoLastModifiedThisMonth | 最后修改于本月       | 6    |
+		| msoLastModifiedThisWeek  | 最后修改于本周       | 4    |
+		| msoLastModifiedToday     | 最后修改于今天       | 2    |
+		| msoLastModifiedYesterday | 最后修改于昨天       | 1    |
+		
+		
+	
 - 5、文件类型：FS.FileType
 	* 可以简单的设定某个文件类型
 	
@@ -52,15 +55,11 @@ function Dir文件遍历(){
 	
 	* 下面是几个常用的
 	
-	* msoFileTypeDatabases 	-数据库文件 (*.mdb)
-	
-	* msoFileTypeOfficeFiles	-文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html
-  
-  * msoFileTypeWebPages		-HTML 文件 (*.htm 或 *.html)
-  
-  * msoFileTypePowerPointPresentations
-    PowerPoint 演示文稿文件 (.ppt)，PowerPoint 模板文件 (.pot)，或 PowerPoint 幻灯片放映文件 (*.pps)
-    FS.FileType.Add() 方法可往内部传入参数（上述枚举值来添加文件类型)
+	* | msoFileTypeDatabases               | 数据库文件 (*.mdb)                                           |
+	  | ---------------------------------- | ------------------------------------------------------------ |
+	  | msoFileTypeOfficeFiles             | 文件的任何以下扩展名: *.doc、 .xls，.ppt、 *.pps、 .obd、 *.mdb、 .mpd，.dot、 .xlt，.pot、 *.obt、 *.htm，或 *.html |
+    | msoFileTypeWebPages                | HTML 文件 (*.htm 或 *.html)                                  |
+    | msoFileTypePowerPointPresentations | PowerPoint 演示文稿文件 (.ppt)，PowerPoint 模板文件 (.pot)，或 PowerPoint 幻灯片放映文件 (*.pps)<br/>FS.FileType.Add() 方法可往内部传入参数（上述枚举值来添加文件类型) |
   
     
   
