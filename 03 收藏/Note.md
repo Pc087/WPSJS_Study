@@ -2,11 +2,11 @@
 
 ```javascript
 function 汇总(){
-	const lst = Array.from(new Array(Sheets.Count + 1).keys()).slice(1)
-	const total = lst.reduce((prev,cur)=>{
-		let arr = Sheets.Item(cur).Range("a1").CurrentRegion.Value2
-		if(cur>1) arr.shift();
-		return prev.concat(arr)
+	const total = Array.from(new Array(Sheets.Count + 1).keys()).slice(1)
+		.reduce((prev,cur)=>{
+            let arr = Sheets.Item(cur).Range("a1").CurrentRegion.Value2
+            if(cur>1) arr.shift();
+            return prev.concat(arr)
 	},[])
 	Sheets.Add().Name = "汇总"
 	Range("a1").Resize(total.length,total[0].length).Value2 = total
