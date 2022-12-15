@@ -69,9 +69,8 @@ function Dir文件遍历(){
 ​    
 
 > (6)、排序 FS.Execute(msoSortBy, msoSortOrder, Boolean)
-
-  ​	- msoSortBy:按照什么来排序
-  ​	- 枚举值：
+- msoSortBy:按照什么来排序
+- 枚举值：
 
   | 枚举值      | 说明     |
   | ---------------------- | ------------ |
