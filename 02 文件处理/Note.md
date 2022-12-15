@@ -26,14 +26,14 @@ function Dir文件遍历(){
 - myPath 可以是一个从 FileDialog选择得到的文件夹名字或者自定义为："D:\\DATA"
 - 表示在这个目录下搜索
 
-> (2)、是否遍历子目录：FS.SearchSubFolders
+> 是否遍历子目录：FS.SearchSubFolders
 - 假如myPath下还有一个文件A，如果想连同子目录内的文件也得到只需要设置为true
 - FS.SearchSubFolders = true
 
-> (3)、搜索什么样的文件：FS.FileName = "-.xls"
+> 搜索什么样的文件：FS.FileName = "-.xls"
 - 可以使用通配符，如上表示搜索所有.xls结尾的文件
 
-> (4)、最后更改时间限制：FS.LastModified = msoLastModifiedAnyTime
+> 最后更改时间限制：FS.LastModified = msoLastModifiedAnyTime
 
 - 如上表示所有时间
 - 它代表自从上次修改和保存指定的文件的时间量(在文件夹可以看到最后的修改时间)
@@ -51,7 +51,7 @@ function Dir文件遍历(){
 
 ​		
 ​	
-> (5)、文件类型：FS.FileType
+> 文件类型：FS.FileType
 - 可以简单的设定某个文件类型
 
 - 常用枚举值：太多了。。。几乎囊括了常用的所有文件格式
@@ -68,7 +68,7 @@ function Dir文件遍历(){
 
 ​    
 
-> (6)、排序 FS.Execute(msoSortBy, msoSortOrder, Boolean)
+> 排序 FS.Execute(msoSortBy, msoSortOrder, Boolean)
 - msoSortBy:按照什么来排序
 - 枚举值：
 
